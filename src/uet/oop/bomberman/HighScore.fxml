@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="563.0" prefWidth="887.0" style="-fx-background-color: yellow;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uet.oop.bomberman.ControllScore">
+   <children>
+      <ImageView fitHeight="587.0" fitWidth="883.0" layoutX="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/background.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="Back" layoutX="6.0" mnemonicParsing="false" onAction="#BackMenu" prefHeight="63.0" prefWidth="114.0">
+         <graphic>
+            <ImageView fitHeight="85.0" fitWidth="178.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Image/back.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <ImageView fitHeight="517.0" fitWidth="525.0" layoutX="204.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/tbscore.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="sc1" alignment="CENTER" layoutX="520.0" layoutY="215.0" prefHeight="20.0" prefWidth="50.0" style="-fx-background-color: yellow;" text="0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="sc2" alignment="CENTER" layoutX="521.0" layoutY="251.0" prefHeight="20.0" prefWidth="50.0" style="-fx-background-color: yellow;" text="0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="sc3" alignment="CENTER" layoutX="521.0" layoutY="290.0" prefHeight="20.0" prefWidth="50.0" style="-fx-background-color: yellow;" text="0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="sc4" alignment="CENTER" layoutX="522.0" layoutY="327.0" prefHeight="20.0" prefWidth="50.0" style="-fx-background-color: yellow;" text="0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="sc5" alignment="CENTER" layoutX="522.0" layoutY="361.0" prefHeight="20.0" prefWidth="50.0" style="-fx-background-color: yellow;" text="0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="sc6" alignment="CENTER" layoutX="521.0" layoutY="398.0" prefHeight="20.0" prefWidth="50.0" style="-fx-background-color: yellow;" text="0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
